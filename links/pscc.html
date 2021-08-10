@@ -1,0 +1,18 @@
+<h3 id="cd">
+  JUST WAIT <span id="countdown">3</span> SECONDS
+</h3>
+
+<script type="text/javascript">
+  var seconds = 3;
+    
+  function countdown() {
+    seconds = seconds - 1;
+    if (seconds < 0) {
+      window.location = "https://gitlab.com/hgofficial/fils/-/raw/main/PS_CC_9.9.9.apk";
+ } else {
+   document.getElementById("countdown").innerHTML = seconds;
+   window.setTimeout("countdown()", 1000);
+}
+}
+countdown();
+</script>
