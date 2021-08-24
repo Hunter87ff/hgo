@@ -1,3 +1,20 @@
-<script>
-window.location.replace('https://gitlab.com/hgofficial/fils/-/raw/main/ExpressVpn.7z');
+<h3 id="cd">
+  JUST WAIT <span id="countdown">10</span> SECONDS
+</h3>
+<style>
+  h3{position:absolute;top:50%;left:50%;}
+</style>
+<script type="text/javascript">
+  var seconds = 10;
+    
+  function countdown() {
+    seconds = seconds - 1;
+    if (seconds < 0) {
+      window.location = "https://gitlab.com/hgofficial/fils/-/raw/main/ExpressVpn.7z";
+ } else {
+   document.getElementById("countdown").innerHTML = seconds;
+   window.setTimeout("countdown()", 1000);
+}
+}
+countdown();
 </script>
