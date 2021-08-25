@@ -16,4 +16,10 @@
   font-family: Arial;
   font-size: 24px;
   background-color: green;
+}.dbtn{
+  height: 40px;
+  width: auto;
+  font-family: Arial;
+  font-size: 24px;
+  background-color: green;
 }
