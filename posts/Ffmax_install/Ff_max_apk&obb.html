@@ -2,16 +2,41 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"/>
     <title>FF MAX APK + OBB</title>
      <link rel="stylesheet" href="https://hunter87ff.github.io/hgo/assets/css/redirect.css"/>
   </head>
   <body>
   <center>
-    <a href="https://files.obbdl.com/file/obbfile/main.2019112288.com.dts.freefiremax.obb">
-    <button id="dbtn">Download OBB</button></a>
-    <a href="https://files.obbdl.com/file/obbfile/com.dts.freefiremax_2.64.1-2019112288.apk"><br /><br /><button id="dbtn">Download Apk</button></a>
+    <div class="con">
+    <a href="#obb">
+    <button onclick="obb()" id="dbtn">Download OBB</button>
+    </a> <a href="#apk">
+    <br />
+    <br />
+    <button id="dbtn" onclick="apk()">Download Apk</button
+    </a>
+    <script type="text/javascript" charset="utf-8">
+      function obb(){
+        window.location.href="https://files.obbdl.com/file/obbfile/main.2019112288.com.dts.freefiremax.obb";
+      }
+      function apk(){
+        window.location.href="https://files.obbdl.com/file/obbfile/com.dts.freefiremax_2.64.1-2019112288.apk";
+      }
+    </script>
+   
+    </div>
     <style type="text/css" media="all">
+    html{
+      background:#bfbfbf;
+    }
+  .con{
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+  }
   #dbtn{height: 40px;
   width: auto;
   font-family: Arial;
